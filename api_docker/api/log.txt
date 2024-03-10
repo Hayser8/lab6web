@@ -1,0 +1,64 @@
+
+        Time: 2024-03-10T22:56:24.011Z
+        Endpoint: /blogs
+        Method: GET
+        Payload: {"title":"Nuevo Blog","content":"Contenido del blog","banner":""}
+        Response: [{"id":1,"title":"Prueba 1 modificada","content":"Contenido de prueba 1 modificada","banner":""},{"id":2,"title":"Prueba 2","content":"Contenido de prueba 2","banner":""}]
+        ------------------------------
+    
+        Time: 2024-03-10T22:56:39.199Z
+        Endpoint: /blogs/1
+        Method: DELETE
+        Payload: {"title":"Nuevo Blog","content":"Contenido del blog","banner":""}
+        Response: 
+        ------------------------------
+    
+        Time: 2024-03-10T22:56:43.800Z
+        Endpoint: /blogs/1
+        Method: GET
+        Payload: {"title":"Nuevo Blog","content":"Contenido del blog","banner":""}
+        Response: {"error":"Post not found"}
+        ------------------------------
+    
+        Time: 2024-03-10T22:56:51.831Z
+        Endpoint: /blogs/2
+        Method: DELETE
+        Payload: {"title":"Nuevo Blog","content":"Contenido del blog","banner":""}
+        Response: 
+        ------------------------------
+    
+        Time: 2024-03-10T23:02:45.281Z
+        Endpoint: /blogs
+        Method: POST
+        Payload: {"title":"Mi Blog","content":"Este es el contenido de mi blog","banner":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="}
+        Response: {"fieldCount":0,"affectedRows":1,"insertId":3,"info":"","serverStatus":2,"warningStatus":0,"changedRows":0}
+        ------------------------------
+    
+        Time: 2024-03-10T23:03:28.004Z
+        Endpoint: /blogs/1
+        Method: GET
+        Payload: {"title":"Mi Blog","content":"Este es el contenido de mi blog","banner":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="}
+        Response: {"error":"Post not found"}
+        ------------------------------
+    
+        Time: 2024-03-10T23:03:34.441Z
+        Endpoint: /blogs/1
+        Method: GET
+        Payload: {"title":"Mi Blog","content":"Este es el contenido de mi blog","banner":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="}
+        Response: {"error":"Post not found"}
+        ------------------------------
+    
+        Time: 2024-03-10T23:03:42.152Z
+        Endpoint: /blogs
+        Method: POST
+        Payload: {"title":"Mi Blog","content":"Este es el contenido de mi blog","banner":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="}
+        Response: {"fieldCount":0,"affectedRows":1,"insertId":4,"info":"","serverStatus":2,"warningStatus":0,"changedRows":0}
+        ------------------------------
+    
+        Time: 2024-03-10T23:03:50.415Z
+        Endpoint: /blogs/4
+        Method: GET
+        Payload: {"title":"Mi Blog","content":"Este es el contenido de mi blog","banner":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="}
+        Response: {"id":4,"title":"Mi Blog","content":"Este es el contenido de mi blog","banner":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="}
+        ------------------------------
+    
