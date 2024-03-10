@@ -1,0 +1,50 @@
+# Nombre del Proyecto: API de Blog
+
+## Descripción
+
+Este proyecto es una API REST para un sistema de blog construido con Express y MySQL. Permite a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre blogs y publicaciones. Diseñado para ser simple pero escalable, esta API puede ser utilizada para alimentar sitios web de blogs o como backend para aplicaciones móviles de blogging.
+
+## Características
+
+- Gestión de blogs: Crear, leer, actualizar y borrar blogs.
+- Gestión de publicaciones: Crear, leer, actualizar y borrar publicaciones en blogs.
+- Soporte para imágenes en banners de blogs.
+- Filtrado y paginación de publicaciones.
+- Validación de datos de entrada.
+
+## Tecnologías Utilizadas
+
+- [Node.js](https://nodejs.org/)
+- [Express](http://expressjs.com/)
+- [MySQL](https://www.mysql.com/)
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+## Instalación
+
+Asegúrate de tener Node.js y MySQL instalados en tu sistema antes de comenzar.
+
+1. Clona este repositorio:
+```bash
+git clone https://tu-repositorio-aqui.git
+cd ruta-al-proyecto
+npm install
+Inicia el servidor:
+npm start
+
+Uso de la API
+Endpoints
+Blogs
+GET /blogs - Lista todos los blogs.
+POST /blogs - Crea un nuevo blog.
+GET /blogs/:id - Obtiene detalles de un blog específico.
+PUT /blogs/:id - Actualiza un blog existente.
+DELETE /blogs/:id - Elimina un blog.
+Publicaciones
+GET /blogs/:blogId/posts - Lista todas las publicaciones de un blog específico.
+POST /blogs/:blogId/posts - Crea una nueva publicación en un blog.
+GET /blogs/:blogId/posts/:postId - Obtiene detalles de una publicación específica.
+PUT /blogs/:blogId/posts/:postId - Actualiza una publicación existente.
+DELETE /blogs/:blogId/posts/:postId - Elimina una publicación
+
+
+El único commit que se hizo al repositorio fue el final cuando se terminó el proyecto, “finalizado”
